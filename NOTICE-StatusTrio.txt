@@ -1,0 +1,4 @@
+Status Trio
+Copyright 2026 lingyired
+
+PowerLens incorporates USBOutputReader.swift and USBPortTopology.swift from Status Trio v1.9.5, commit 188a56e. Sensor integration in main.swift adapted for PowerLens.
