@@ -527,6 +527,7 @@ struct Dashboard: View {
             HStack(spacing: 5) {
                 Text(L("每 2 秒讀取")).font(.system(size: 9)).foregroundStyle(.tertiary)
                 Spacer()
+                LoginItemMenu().padding(.trailing, 4)
                 Button { monitor.details = false; monitor.languageMenuOpen = false; monitor.about = true } label: { Image(systemName: "info.circle") }.buttonStyle(.plain).help(L("關於 PowerLens")).accessibilityLabel(L("關於 PowerLens"))
                 Button { monitor.refresh() } label: { Image(systemName: "arrow.clockwise") }.buttonStyle(.plain).padding(.leading, 9)
                 Button(L("結束")) { NSApp.terminate(nil) }.buttonStyle(.plain).padding(.leading, 9)

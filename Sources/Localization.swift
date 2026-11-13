@@ -38,6 +38,13 @@ final class LanguageSettings: ObservableObject {
 }
 enum Translations {
     static let strings: [String: [String]] = [
+        "開機自啟動": ["開機自啟動", "开机自启动", "Launch at login", "로그인 시 자동 실행", "ログイン時に起動"],
+        "登入 Mac 時自動啟動": ["登入 Mac 時自動啟動", "登录 Mac 时自动启动", "Start automatically when you log in", "Mac 로그인 시 자동으로 시작", "Mac ログイン時に自動起動"],
+        "需要批准 · 開啟系統設定": ["需要批准 · 開啟系統設定", "需要批准 · 打开系统设置", "Approval needed · Open System Settings", "승인 필요 · 시스템 설정 열기", "承認が必要 · システム設定を開く"],
+        "設定": ["設定", "设置", "Settings", "설정", "設定"],
+        "無法更改自啟動設定": ["無法更改自啟動設定", "无法更改自启动设置", "Could not change login setting", "자동 실행 설정을 변경할 수 없음", "自動起動設定を変更できません"],
+        "好": ["好", "好", "OK", "확인", "OK"],
+
         "總供電": ["總供電", "总供电", "Total supply", "총 공급 전력", "総供給電力"],
         "關於 PowerLens": ["關於 PowerLens", "关于 PowerLens", "About PowerLens", "PowerLens 정보", "PowerLens について"],
         "選單列上的即時電力監測": ["選單列上的即時電力監測", "菜单栏上的实时电力监测", "Live power monitoring in your menu bar", "메뉴 막대의 실시간 전력 모니터", "メニューバーで電力をリアルタイムに確認"],

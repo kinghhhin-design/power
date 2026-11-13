@@ -1,6 +1,6 @@
 # GitHub 發布說明
 
-此資料夾包含 PowerLens 1.9.5 的發布文件，尚未上傳 GitHub。
+此資料夾包含 PowerLens 1.9.6 的發布文件，尚未上傳 GitHub。
 
 ## 1. 上傳原始碼
 
@@ -12,8 +12,8 @@
 
 在倉庫的 Releases 選 Draft a new release：
 
-- Tag：v1.9.5
-- Title：PowerLens v1.9.5
+- Tag：v1.9.6
+- Title：PowerLens v1.9.6
 - 說明：貼上 RELEASE_NOTES.md 的內容。
 - 附件：上傳 release 內的 App ZIP 與 SHA256SUMS.txt。
 
